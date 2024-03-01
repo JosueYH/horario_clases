@@ -1,0 +1,16 @@
+/* Estilo para centrar la imagen */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    margin: 200;
+}
+
+/* Estilo adicional para la imagen */
+img {
+    max-width: 10%; /* Ajusta el tamaño máximo de la imagen al ancho de la pantalla */ /*Tamaño del imagen*/
+    height: auto; /* Esto garantiza que la altura se ajuste automáticamente para mantener la proporción de la imagen. */
+    margin-top: 680px;
+}
